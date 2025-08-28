@@ -350,8 +350,8 @@ function createChapterFromStory(
   const storyTitle = storyMetadata.title || `${storyMetadata.childName}'s ${toTitleCase(adventureTypeFormatted)} Adventure`;
   const titleCaseTitle = toTitleCase(storyTitle);
   
-  // Use the provided icon hash for all chapters
-  const chapterIcon = 'yoto:#gTMbacpoeSMYqc9fNLJnxPjylraNG6jIrYEWevyzYbA';
+  // Get the appropriate icon for this adventure type
+  const chapterIcon = getIconForAdventureType(storyMetadata.adventureType) || 'yoto:#gTMbacpoeSMYqc9fNLJnxPjylraNG6jIrYEWevyzYbA';
   
   return {
     key: chapterNumber.toString().padStart(2, '0'),
