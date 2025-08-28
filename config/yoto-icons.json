@@ -1,0 +1,52 @@
+{
+  "adventureTypeIcons": {
+    "magical-forest": {
+      "icon16x16": "yoto:#imtAZeTBsULh8B-l566RCZSaHNhg6KiarpLPGxx25eE",
+      "description": "Magical Forest Adventure"
+    },
+    "space-adventure": {
+      "icon16x16": "yoto:#n2PUPP6Vun_0l-neSsUIAupzgiM3it5nbiP2LmBfQzg",
+      "description": "Space Adventure"
+    },
+    "underwater-journey": {
+      "icon16x16": "yoto:#NqPcvCvLIlcSTuqnNmWZkHnYm2PEkhgpLXWqUxfHaxM",
+      "description": "Underwater Journey"
+    },
+    "fairy-tale-castle": {
+      "icon16x16": "yoto:#BqUWAfKjymu3yzksZkUki8jo4D7Nz-kb37pyDxh1Sh8",
+      "description": "Fairy Tale Castle"
+    },
+    "animal-safari": {
+      "icon16x16": "yoto:#48wtgnn6Uc-ILAWu4UY-WsoYd_JQIIfaHTMT5PN30do",
+      "description": "Animal Safari"
+    },
+    "pirate-treasure": {
+      "icon16x16": "yoto:#Kedwx3AqrRLdx8Nf1x9nXDwVkCHDwE4uWKz-ezhKLZc",
+      "description": "Pirate Treasure Hunt"
+    },
+    "superhero-city": {
+      "icon16x16": "yoto:#_7CzVIVcBy2D_K-A0Sn4MHlaykP1sd0y7NmGdPTccl0",
+      "description": "Superhero City"
+    },
+    "time-travel": {
+      "icon16x16": "yoto:#0Iqxsda8bJiWuN4SaGiQiOPuAfZWS1Rbzae3d7P53RU",
+      "description": "Time Travel Adventure"
+    },
+    "default": {
+      "icon16x16": "yoto:#gTMbacpoeSMYqc9fNLJnxPjylraNG6jIrYEWevyzYbA",
+      "description": "Generic Adventure"
+    }
+  },
+  "cardCoverImages": {
+    "default": {
+      "imageL": "https://cdn.yoto.io/myo-cover/bee_green.gif",
+      "description": "Default cover image for cards"
+    }
+  },
+  "notes": {
+    "iconFormat": "Icons should be in the format 'yoto:#<sha256-hash>' where the hash is the SHA256 of the icon file",
+    "iconSize": "Icons should be 16x16 pixels for the icon16x16 field",
+    "coverSize": "Cover images (imageL) are larger card images shown in the Yoto app",
+    "todo": "Replace all PLACEHOLDER values with actual Yoto icon hashes from the Yoto team"
+  }
+}
